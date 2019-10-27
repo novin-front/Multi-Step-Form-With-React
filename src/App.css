@@ -1,3 +1,7 @@
+body{
+      background: rgb(2, 10, 28);
+      background: linear-gradient(90deg, rgba(2, 10, 28, 0.8461524258140756) 19%, rgba(32, 64, 98, 0.8825669916404062) 79%);
+}
 .App {
   text-align: center;
 }
@@ -19,4 +23,52 @@
 
 .App-link {
   color: #09d3ac;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.form-user-details{
+  margin-top:60px;
+}
+.makeStyles-container-gird{
+    margin: 50px auto;
+    -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 1);
+}
+
+.alert-success {
+  padding: 20px;
+  background: #43a047;
+  display: inline-block;
+  margin: 20px;
+
+  border-radius: 3px;
+-webkit-box-shadow: 2px 2px 6px 0px rgba(99, 99, 99, 1);
+-moz-box-shadow: 2px 2px 6px 0px rgba(99, 99, 99, 1);
+box-shadow: 2px 2px 6px 0px rgba(99, 99, 99, 1);
+}
+.alert-success span{
+  color:white;
+}
+@media screen and (max-width:550px){
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .makeStyles-container-gird {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width:550px) {
+  .makeStyles-container-gird {
+    width: 420px;
+  }
+  .confirm-div {
+    width: 600px;
+  }
 }
